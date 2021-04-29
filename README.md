@@ -1,6 +1,10 @@
 # End-to-End Transfer Anomaly Detection via Multi-spectral Cross-domain Representation Alignment
 Code release for "End-to-End Transfer Anomaly Detection via Multi-spectral Cross-domain Representation Alignment"
 
+#Paper
+
+<div align=center><img src="./figures/method.png" width="100%"></div>
+
 In this paper, we propose a Multi-spectral Cross-domain Representation Alignment (MsRA) method for the anomaly detection in the domain adaptation setting, where we can only access a set of normal source data and a limited number of normal target data.
 
 ## Prerequisites
