@@ -17,7 +17,6 @@ Office-Home dataset can be found [here](http://hemanthdv.org/OfficeHome-Dataset/
 
 ## Running the code
 
-Office-Home
 ```
 python3 train_TSA.py --gpu_id 4 --arch resnet50 --seed 0 --dset office-home --output_dir log/office-home --s_dset_path data/list/home/Art_65.txt --t_dset_path data/list/home/Product_65.txt --epochs 40 --iters-per-epoch 500 --lambda0 0.25 --MI 0.1
 ```
