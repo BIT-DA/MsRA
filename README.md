@@ -17,6 +17,7 @@ To install the required python packages, run
 ## Datasets
 
 Download the dataset and place the images to the corresponding folder.
+
 Office-Home dataset can be found [here](http://hemanthdv.org/OfficeHome-Dataset/).
 
 ## Running the code
