@@ -23,7 +23,7 @@ Office-Home dataset can be found [here](http://hemanthdv.org/OfficeHome-Dataset/
 ## Running the code
 
 ```
-python ./MsRA.py --dataset OfficeHomeDataset --source Product --target Clipart --c_cls Bike
+python MsRA.py --dataset OfficeHomeDataset --source Product --target Clipart --c_cls Bike
 ```
 
 ## Acknowledgements
