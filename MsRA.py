@@ -237,10 +237,10 @@ class MsRA():
 
                 i += 1
 
-                print('epoch: %d, [iter: %d / all %d], err_s_label: %f, err_s_domain: %f, err_t_domain: %f, err: %f , '
-                      'center_l： %f, svdd: %f' % (epoch, i, len_dataloader, err_s_label.cpu().data.numpy(),
-                         err_s_domain.cpu().data.numpy(), err_t_domain.cpu().data.numpy(), err.cpu().data.numpy(),
-                                center_loss.cpu().data.numpy(),(svdd_loss_s + svdd_loss_t).cpu().data.numpy()))
+                print('epoch: %d, [iter: %d / all %d], err_s_label: %f, err_s_domain: %f, err_t_label:%f, err_t_domain: %f, err_center： '
+                      '%f, err_svdd: %f, total: %f' % (epoch, i, len_dataloader, err_s_label.cpu().data.numpy(),
+                         err_s_domain.cpu().data.numpy(), err_t_label.cpu().data.numpy(), err_t_domain.cpu().data.numpy(),
+                         center_loss.cpu().data.numpy(),(svdd_loss_s + svdd_loss_t).cpu().data.numpy(), err.cpu().data.numpy()))
 
             auroc = self.test(my_net)
             auroc_list.append(auroc)
