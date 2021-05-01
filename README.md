@@ -1,5 +1,6 @@
-# End-to-End Transfer Anomaly Detection via Multi-spectral Cross-domain Representation Alignment
-Code release for "End-to-End Transfer Anomaly Detection via Multi-spectral Cross-domain Representation Alignment"
+# End-to-End Transferable Anomaly Detection via Multi-spectral Cross-domain Representation Alignment
+
+Code release for "End-to-End Transferable Anomaly Detection via Multi-spectral Cross-domain Representation Alignment"
 
 # Paper
 
