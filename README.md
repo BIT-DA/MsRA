@@ -4,7 +4,7 @@ Code release for "End-to-End Transferable Anomaly Detection via Multi-spectral C
 
 # Paper
 
-<div align=center><img src="./figures/method.png" width="100%"></div>
+<div align=center><img src="./figures/Fig_method.pdf" width="100%"></div>
 
 In this paper, we propose a Multi-spectral Cross-domain Representation Alignment (MsRA) method for the anomaly detection in the domain adaptation setting, where we can only access a set of normal source data and a limited number of normal target data.
 
